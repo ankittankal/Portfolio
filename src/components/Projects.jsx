@@ -18,8 +18,8 @@ const Projects = () => {
             name = "Portfolio" 
             ImageUrl = "\Portfolio.png"
             discription = "Developed a dynamic personal portfolio featuring seamless UI/UX and multiple sections."
-            github=""
-            LiveUrl=""
+            github="https://github.com/ankittankal/Portfolio"
+            LiveUrl="https://portfolio-ankittankals-projects.vercel.app/"
         />
 
         <Project 

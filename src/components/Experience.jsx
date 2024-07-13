@@ -10,7 +10,7 @@ export default function Experience() {
       logo: '/tcs.jpg',
       name: 'Tata Consultancy Services',
       jobTitle: 'Associate System Engineer',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate nesciunt nostrum corrupti possimus accusantium deleniti quasi, praesentium alias autem natus nisi facere aliquam pariatur',
+      description: 'Designed and developed Kafka-based messaging systems and microservices architecture using Spring Boot, improving scalability and reliability. Implemented REST APIs with Java and Spring Boot.',
     },
     {
       _id: '2',
@@ -18,7 +18,7 @@ export default function Experience() {
       logo: '/saltside.webp',
       name: 'Saltside Technologies ',
       jobTitle: 'Software Engineer Intern',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate nesciunt nostrum corrupti possimus accusantium deleniti quasi, praesentium alias autem natus nisi facere aliquam pariatur, consectetur odit? Odit natus laborum quam. ',
+      description: 'familiar with Agile methodologies and Git workflows. Gained familiarity with GRPC while actively working with the company’s codebase. Improved test case coverage ensuring higher code quality and reliability.',
     },
   ];
 
