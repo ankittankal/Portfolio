@@ -39,7 +39,7 @@ const Home = () => {
 
       <div className='hidden xl:block  col-span-6 h-auto max-w-sm'>
           <img src="\Avatar3.png" alt="" />
-        </div>
+      </div>
     </section>
   )
 }

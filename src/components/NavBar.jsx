@@ -66,7 +66,7 @@ export default function NavBar() {
                 About me</a>
             </li>
             <li className=' hover:text-orange-700'>
-                <a href='#Contact'>
+                <a href='#contact'>
                 Contact</a>
             </li>
           </ul>
