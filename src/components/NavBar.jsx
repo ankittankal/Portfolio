@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { useState } from 'react';
 
@@ -15,12 +14,12 @@ export default function NavBar() {
 
   return (
     <>
-    <div className='grid grid-cols-12 pt-6 bg-gray-900 pb-10'>
-      <div className='col-span-8 text-white pl-32'>
+    <div className='flex flex-row items-center  pt-4 md:pr-10 bg-gray-900 pb-10'>
+      <div className='col-span-8 text-white pl-28 '>
         <img src="/logo.png" alt=""  className=' h-24 '/>
       </div>
 
-      <div className='hidden xl:block col-span-4'>
+      <div className='hidden ml-auto md:block col-span-4'>
         <ul className='flex font-bold text-white  text-xl'>
             <li className='px-3 hover:text-orange-700 text-orange-700'>
                 <a href='#Home'>
@@ -42,7 +41,7 @@ export default function NavBar() {
       </div>
 
       
-     <div className='col-span-4 xl:hidden text-right pr-10 text-2xl'>
+     <div className='col-span-4 ml-auto md:hidden text-right pr-10 text-2xl'>
         <button onClick={togleNavbar}>
           {isOpen ? <i className="fa-solid fa-x text-orange-700"></i> : <i className="fas fa-bars text-blue-500"></i>}
         </button>
@@ -52,7 +51,7 @@ export default function NavBar() {
     </div>
 
     {isOpen && (
-        <div className='text-center bg-gray-900 xl:hidden'>
+        <div className='text-center bg-gray-900 md:hidden'>
           <ul className='inline-block text-left font-bold text-white text-xl space-y-3'>
             <li className=' hover:text-orange-700 text-orange-700 '>
                 <a href='#Home'>
