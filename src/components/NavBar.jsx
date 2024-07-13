@@ -17,7 +17,7 @@ export default function NavBar() {
     <>
     <div className='grid grid-cols-12 pt-6 bg-gray-900 pb-10'>
       <div className='col-span-8 text-white pl-32'>
-        <img src="src/assets/logo.png" alt=""  className=' h-24 '/>
+        <img src="/logo.png" alt=""  className=' h-24 '/>
       </div>
 
       <div className='hidden xl:block col-span-4'>

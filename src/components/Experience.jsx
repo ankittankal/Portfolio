@@ -7,7 +7,7 @@ export default function Experience() {
     {
       _id: '1',
       url: 'https://www.tcs.com/',
-      logo: 'src/assets/tcs.jpg',
+      logo: '/tcs.jpg',
       name: 'Tata Consultancy Services',
       jobTitle: 'Associate System Engineer',
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate nesciunt nostrum corrupti possimus accusantium deleniti quasi, praesentium alias autem natus nisi facere aliquam pariatur',
@@ -15,7 +15,7 @@ export default function Experience() {
     {
       _id: '2',
       url: 'https://saltside.se/',
-      logo: 'src/assets/saltside.webp',
+      logo: '/saltside.webp',
       name: 'Saltside Technologies ',
       jobTitle: 'Software Engineer Intern',
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate nesciunt nostrum corrupti possimus accusantium deleniti quasi, praesentium alias autem natus nisi facere aliquam pariatur, consectetur odit? Odit natus laborum quam. ',
