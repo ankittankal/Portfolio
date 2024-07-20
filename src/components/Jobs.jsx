@@ -7,12 +7,12 @@ export default function Jobs({job}) {
           {job.map((data, index) => (
             <div
               key={data._id}
-              className={"flex items-start lg:gap-x-6 gap-x-4 max-w-2xl relative before:absolute before:bottom-0 before:top-[5rem] before:left-9 before:w-[1px] before:h-[calc(100%-70px)] dark:before:bg-gray-800 before:bg-zinc-200 m-6"}
+              className={"flex items-start lg:gap-x-6 gap-x-4 max-w-2xl relative before:absolute before:bottom-0 before:top-[5rem] before:left-9 before:w-[1px] before:h-[calc(100%-70px)] before:bg-gray-800 m-6"}
             >
 
               <div
                 href={data.url}
-                className="grid place-items-center dark:bg-primary-bg bg-secondary-bg border dark:border-gray-800 border-zinc-200 min-h-[80px] min-w-[80px] p-2 rounded-md overflow-clip relative"
+                className="grid place-items-center bg-primary-bg border border-gray-800 min-h-[80px] min-w-[80px] p-2 rounded-md overflow-clip relative"
               >
                 <a  
                   href={data.url} 
@@ -32,7 +32,7 @@ export default function Jobs({job}) {
               <div className="flex flex-col items-start">
                 <h3 className="text-xl font-semibold text-blue-500">{data.name}</h3>
                 <p className='text-orange-700'>{data.jobTitle}</p>
-                <p className="tracking-tight dark:text-zinc-400 text-zinc-600 my-4">
+                <p className="tracking-tight text-zinc-400  my-4">
                   {data.description}
                 </p>
               </div>
