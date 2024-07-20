@@ -25,7 +25,7 @@ const Project = ({name , discription, ImageUrl, github, LiveUrl}) => {
                         <div className='flex'>
                             <div className='hidden sm:block'>
                             <i className="fa-brands fa-github text-3xl text-white hover:text-blue-500"></i></div>
-                            <p className=' dark:text-gray-400 pl-3 hover:text-orange-700 '> github</p>
+                            <p className=' text-gray-400 pl-3 hover:text-orange-700 '> github</p>
                         </div>
                     </a>
     
@@ -37,7 +37,7 @@ const Project = ({name , discription, ImageUrl, github, LiveUrl}) => {
                         <div className='flex text-3xl'>
                             <div className='hidden sm:block'>
                             <i className="hidden md:block fa fa-eye text-white hover:text-blue-500"></i></div>
-                            <p className=' dark:text-gray-400 pl-3 text-lg hover:text-orange-700 '> Live Preview</p>
+                            <p className=' text-gray-400 pl-3 text-lg hover:text-orange-700 '> Live Preview</p>
                         </div>
                     </a>
                 </div>    
